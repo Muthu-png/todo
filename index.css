@@ -1,0 +1,80 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vh;
+    background:url(./image/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#heading{
+    color: #ba5889;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+#toDoContainer{
+    background-color:#a49c9c;
+    border-radius: 10px;
+    min-height: 400px;
+    min-width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 42%;
+}
+
+#toDoContainer input,button,h1{
+   margin-top: 35px;
+   margin-left: 35px;
+   margin-bottom: 25px;
+}
+
+#toDoButton{
+    border-radius: 5px;
+    margin-left: 10px;
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(5, 136, 5);
+    color: white;
+}
+
+#inputField{
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+}
+
+.paragraph{
+    color: wheat;
+    background-color:transparent;
+    margin-left: 65px;
+    border-radius: 5px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.buttonList{
+    color: aliceblue;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    height: 25px;
+    width: 30px;
+}
